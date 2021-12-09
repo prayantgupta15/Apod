@@ -15,6 +15,7 @@ class ProviderModel extends ChangeNotifier {
   set setTheme(Color themeColor) {
     _themeColor = themeColor;
     notifyListeners();
+
   }
 
   get getThemecolor => _themeColor;
